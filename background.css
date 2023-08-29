@@ -1,10 +1,15 @@
+<!--Background usada para definir o plano de fundo de um elemento HTML. 
+Ela permite aplicar cores, imagens, gradientes e outros efeitos visuais ao plano de fundo do elemento, 
+tornando possível personalizar a aparência e o estilo de cada elemento da página.-->
 
+<!--Tipos de background cor, imagem e posição -->
 .post {
     background-color: green;
     background-image: url(emily.png);
     background-position: top;
 }
 
+<!--Formas de se colocar cor no background -->
 .post {
     background-color: green;
     background-color: #008800;
