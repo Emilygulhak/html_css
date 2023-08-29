@@ -1,3 +1,11 @@
+<!--Border é usada para definir as bordas de um elemento HTML. 
+Ela permite adicionar uma linha visível ao redor do elemento, criando uma moldura que separa visualmente o conteúdo
+do elemento do seu entorno. 
+A propriedade border pode ser aplicada a todos os lados do elemento ou a cada lado individualmente. -->
+
+<!-- Lados para se arredondar, sendo largura, estilo e cor-->
+<!--largura = pixel, centimetros e milimetros-->
+<!--estilo = sólido, pontilhada e tracejada-->
 .post {
     border-top: 2px dotted green;
     border-right: 4px dashed pink;
@@ -5,16 +13,18 @@
     border-left: 4px dotted cyan;
 }
 
+<!--Outra forma de colocar os dados -->
 .post {
     border: 3px solid #505050;
 }
 
+<!--Outra forma mais detalhada de colocar os dados-->
 .post {
     border-width: 3px;
     border-color: #505050;
     border-style: solid;
 }
-
+<!--Ainda mais detalhada-->
 .post {
     border-top-width: 3px;
     border-top-color: blue;
