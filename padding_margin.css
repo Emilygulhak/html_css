@@ -1,16 +1,26 @@
+<!--Padding e Margin = ão propriedades fundamentais usadas para controlar o espaçamento e 
+ o layout dos elementos HTML em relação a outros elementos ou aos limites da página.
+ Padding se refere ao espaço entre o conteúdo de um elemento e sua borda. Ele permite adicionar 
+um espaço internodentro do elemento, criando um afastamento entre o conteúdo e as bordas do elemento. -->
+
+<!-- Especificando o valor de todos os lados de um só vez -->
 .post {
     padding : 10px
 }
 
+<!-- Especificando o valor de dois lados "eixos" y e x   -->
+<!-- y = superior e inferior -->
+<!-- x = esquerdo e direito -->
 .post {
     padding: 10px 5px;
 }
 
+<!-- Especificando o valor de todos os lados "eixos" y e x   -->
 .post {
     padding: 15px 10px 5px 0;
 }
 
-
+<!-- Especificando o valor de todos os lado separadamente   -->
 .post {
     padding-top: 15px;
     padding-right: 10px;
