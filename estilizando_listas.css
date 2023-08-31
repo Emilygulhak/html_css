@@ -1,11 +1,15 @@
+<!-- Para alterar a aparencia dos marcadores das listas não ordenadas com ponto, circulo ou quadrado -->
+<!-- Para alterar a aparencia das listas ordenas temos a opção de números, números decimais etc. -->
 .lista {
     list-style-type: disc;
 }
 
+<!-- Para de adicionar uma imagem -->
 .lista {
     list-style-image: url(emily.png);
 }
 
+<!-- Para se adicionar um emoji -->
 .lista {
     list-style-type: "\1F44D";
 }
