@@ -1,0 +1,11 @@
+.lista {
+    list-style-type: disc;
+}
+
+.lista {
+    list-style-image: url(emily.png);
+}
+
+.lista {
+    list-style-type: "\1F44D";
+}
