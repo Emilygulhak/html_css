@@ -1,4 +1,3 @@
-alert('Welcome !!')
 
 //como declarar um array
 let array = ['string', 1, true];
