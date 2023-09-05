@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+
     <script>
 //Laços de repetição
 //São estruturas condicionais que repetem uma instrução até atingir determinada condição
