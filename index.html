@@ -1,43 +1,76 @@
-<!DOCTYPE <!DOCTYPE html>
-<html lang="pt-BR">
-    <head>
-        <title>Emily Gulhak</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body class="fundo">
-    <header> 
-        <span class="circle-imagen">
-            <img src="emily.jpeg" alt="minha foto">
-        </span>
-        
-        <h1 class="name">Emily Gulhak</h1>
-        <h3 class="subtitulo">Developer</h3>
-        
-        <script src="script.js"></script>
-        <!--Ctrl em cima do scritp.js-->
-    </header>
-    <section> 
-        <header class="texto">
-            <h3>22 years / São Paulo - BR / Internship</h3>
-            <p>Full stack developer with knowledge in HTML, CSS, JAVA and SQL, developing myself even more and acquiring more knowledge to my portfolio so I find myself in constant evolution always looking to improve my development.
-                I'm about to finish college in systems analysis and development and I'm looking for my first job in the area, I'm very constant and dedicated always looking for more challenges come and meet me in my networks</p>
-        
-        
-            
-                
-            </header>
-    </section>
-    <footer>
-        <a href="https://github.com" target="_blank">GitHub</a>
-        <br>
-        <a href="https://www.linkedin.com/in/emily-gulhak-a79945180/" target="_blank">LinkedIn</a>
-        
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+//Estruturas Condicionais 
+//São instruções para realizar determinadas tarefas a partir de uma condição, seja de decisão ou repetição.
+
+//if (se)
+//Palavra reservada if para estabelecer uma condição.
+ var jogador1 = 1;
+ var jogador2 = 0;
+
+ if(jogador1 > 0){
+    console.log('Jogador1 marcou ponto!');
+ }
+
+//else 
+//no caso de a condição não ser atendida podemos usar o else
+
+var jogador1 = 1;
+ var jogador2 = 0;
+
+ if(jogador1 > 0){
+    console.log('Jogador1 marcou ponto!');
+ }else{
+    console.log('ninguem marcou ponto!');
+ }
+
+ //else if 
+ //caso haja mais de uma condição usamos o else if
+ var jogador1 = 1;
+ var jogador2 = 0;
+
+ if(jogador1 > 0){
+    console.log('Jogador1 marcou ponto!');
+ }else if (jogador2 > 0){
+    console.log('jogador2 marcou ponto!');
+ }else{
+    console.log('ninguem marcou ponto!');
+ }
 
 
-    </footer>
-    </body>
+ //ninho de if 
+ //podemos também usar o if dentro de um outro if
+ // != -> significa diferente
+ if (jogador1 != -1){
+    if(jogador1 > 0){
+        console.log('Jogador1 marcou ponto!');
+    }else{
+        console.log('ninguem marcou ponto!');
+    }
+ }else{
+    console.log('jogador inválido!');
+ }
+
+
+ //if ternário
+ //podemos também fazer uma verificação em uma única linha usando o if ternário.
+//[condição] ? [instrução1] : [instrução2];
+
+if(jogador1 > 0 ? console.log('marcou ponto'):console.log('não marcou ponto'));
+    </script>
+
+
+
+
+
+
+
+</body>
 </html>
-
-
